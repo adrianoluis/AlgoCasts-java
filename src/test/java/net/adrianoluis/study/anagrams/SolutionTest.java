@@ -3,15 +3,16 @@ package net.adrianoluis.study.anagrams;
 import org.junit.Before;
 import org.junit.Test;
 
-import static org.junit.Assert.*;
+import static org.junit.Assert.assertFalse;
+import static org.junit.Assert.assertTrue;
 
-public class  SolutionTest {
+public class SolutionTest {
 
 	private Solution solution;
 
 	@Before
 	public void setUp() {
-		solution = new  Solution();
+		solution = new Solution();
 	}
 
 	@Test

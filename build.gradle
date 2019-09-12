@@ -1,0 +1,23 @@
+plugins {
+    id 'java'
+}
+
+repositories {
+    mavenCentral()
+}
+
+group = 'net.adrianoluis'
+version = '0.0.1-SNAPSHOT'
+description = 'AlgoCasts-java'
+
+dependencies {
+    testImplementation 'junit:junit:4.13.2'
+}
+
+java {
+  sourceCompatibility = JavaVersion.VERSION_1_8
+}
+
+tasks.withType(JavaCompile) {
+    options.encoding = 'UTF-8'
+}

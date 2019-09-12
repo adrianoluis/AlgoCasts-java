@@ -1,8 +1,6 @@
 package net.adrianoluis.study.anagrams;
 
 import java.util.Arrays;
-import java.util.HashMap;
-import java.util.Map;
 
 // --- Directions
 // Check to see if two provided strings are anagrams of eachother.
