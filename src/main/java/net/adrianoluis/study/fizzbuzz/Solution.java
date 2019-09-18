@@ -1,5 +1,7 @@
 package net.adrianoluis.study.fizzbuzz;
 
+import net.adrianoluis.study.shared.Loggable;
+
 // --- Directions
 // Write a program that console logs the numbers
 // from 1 to n. But for multiples of three print
@@ -13,7 +15,7 @@ package net.adrianoluis.study.fizzbuzz;
 //   fizz
 //   4
 //   buzz
-public class Solution {
+public class Solution extends Loggable {
 
 	private static int FIZZ = 3;
 	private static int BUZZ = 5;
@@ -46,13 +48,4 @@ public class Solution {
 //			}
 //		});
 //	}
-
-	/**
-	 * Wrapper to System.out which can be overwritten in Test file.
-	 *
-	 * @param obj
-	 */
-	public void log(Object obj) {
-		System.out.println(obj);
-	}
 }
